@@ -1,0 +1,103 @@
+html, body { padding: 0; margin: 0; font-size: 14px; }
+body, input, textarea, button { font-family: "Avenir", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "�믡꺀��깕鰲믡궡 ProN W3", �▲궎�ゃ궕, "Apple SD Gothic Neo", "Nanum Barun Gothic", "Helvetica,Arial", "Malgun Gothic", "留묒�怨좊뵓", �뗭�, Dotum, sans-serif; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-family: "Avenir", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "�믡꺀��깕鰲믡궡 ProN W3", �▲궎�ゃ궕, "Apple SD Gothic Neo", "Nanum Barun Gothic", "Helvetica,Arial", "Malgun Gothic", "留묒�怨좊뵓", �뗭�, Dotum, sans-serif; font-weight: 500; }
+a { text-decoration: none; color: #5f7eff; }
+img { max-width: 100%; }
+
+.lp-wrapper { position: relative; }
+.lp-container { width: 100%; max-width: 1100px; margin: 0 auto; position: relative; box-sizing: border-box; }
+.lp-section { box-sizing: border-box; margin-top: 2rem; padding-top: 2rem; position: relative; }
+.lp-section-bg { padding-bottom: 4rem; }
+
+.lp-text-block { display: inline-block; white-space: nowrap; }
+
+.clearfix { display: table; clear: both; }
+.clearfix:before { content: ""; }
+.clearfix-1 { height: 1rem; }
+.clearfix-2 { height: 2rem; }
+.clearfix-4 { height: 4rem; }
+.clearfix-5 { height: 5rem; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-bold { font-weight: bold; }
+.text-italic { font-style: italic; }
+.text-weight-normal { font-weight: normal; }
+.text-size-1 { font-size: 1rem; }
+.text-header-reset { margin: 0; padding: 0; line-height: 1; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.color-primary { color: #5f7eff !important; }
+.color-brown { color: #3b2314 !important; }
+.color-yellow { color: #ffd358 !important; }
+.color-white { color: #fff !important; }
+
+.bg-primary { background: #5f7eff !important; }
+.bg-white { background: #fff !important; }
+.bg-dark { background: #1c1c1c !important; }
+.bg-black { background: #000 !important; }
+
+.list-unstyled { list-style: none; margin: 0; padding: 0; }
+.list-unstyled li { margin: 0; padding: 0; }
+.list-inline li { display: inline-block; }
+
+.margin-b { margin-bottom: 8px !important; }
+.margin-t { margin-top: 8px !important; }
+.margin-l { margin-left: 8px !important; }
+.margin-r { margin-right: 8px !important; }
+.margin-b2 { margin-bottom: 16px !important; }
+.margin-t2 { margin-top: 16px !important; }
+.margin-l2 { margin-left: 16px !important; }
+.margin-r2 { margin-right: 16px !important; }
+
+.padding-b { padding-bottom: 8px !important; }
+.padding-t { padding-top: 8px !important; }
+.padding-l { padding-left: 8px !important; }
+.padding-r { padding-right: 8px !important; }
+
+.animation-element { opacity: 0; position: relative; top: 20px; opacity: 1 !important; top: 0 !important; }
+.animation-element.lp-animate { opacity: 1; }
+
+.lp-hover-smooth { transition: all .2s; }
+.lp-hover-smooth:hover { transition: all .2s; }
+
+.lp-btn { border: 2px solid transparent; padding: .65rem .75rem; box-sizing: border-box; background: transparent; text-align: center; line-height: 1; font-size: .85rem; font-weight: 600; color: #232323; }
+.lp-btn-rounded { padding: .65rem 1.5rem; border-radius: 1000px; box-sizing: border-box; }
+.lp-btn-white { background: #fff; color: #232323; }
+.lp-btn-white-outline { background: transparent; color: #fff; border-color: #fff; }
+.lp-btn-primary-outline { background: transparent; color: #5f7eff; border-color: #5f7eff; }
+.lp-btn-hover { transition: all .2s; }
+.lp-btn-hover:hover { transition: all .2s; }
+.lp-btn-hover--shadow {}
+.lp-btn-hover--shadow:hover { box-shadow: 0 0 .5rem rgba(0,0,0,.25); }
+.lp-btn-primary-outline.lp-btn-hover--shadow:hover { box-shadow: 0 0 .5rem rgba(95,126,255,.25); }
+
+.lp-guide-text-block { box-sizing: border-box; padding: .5rem; margin: .5rem 0 0; background: #FFFDE7; color: #999; }
+.lp-guide-text-block p { line-height: 130%; padding: 0; margin: 0 !important; }
+
+@supports (-webkit-backdrop-filter: none) { 
+	.element-blur { -webkit-backdrop-filter: blur(10px); }
+}
+
+/* MQ Phone */
+@media only screen and (max-width: 35.4rem) {
+	.lp-hide-mobile { display: none !important; }
+}
+
+/* MQ Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.lp-hide-tablet { display: none !important; }
+}
+
+/* MQ PC */
+@media only screen and (min-width: 1224px){
+	.lp-hide-pc { display: none !important; }
+}
+
+/* MQ Large Screen */
+@media only screen and (min-width: 1824px){
+
+}
